@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+*.qahub
+.streamlit/secrets.toml
+.DS_Store

@@ -1,0 +1,22 @@
+# QAhub - Gerador de Cenários de Teste
+# Arquivo de dependências.
+# Requer Python 3.10 ou mais novo.
+
+# Interface do app
+streamlit>=1.41,<2
+
+# Geração do PDF (cabeçalho editável, painel da sprint, evidências)
+fpdf2>=2.8.2
+
+# Tratamento da logo do cliente enviada por upload e das evidências anexadas
+Pillow>=10.0
+
+# Painel da sprint (gráfico de cenários por status)
+pandas>=2.0
+
+# Importação de requisitos a partir de arquivos PDF e Word (.docx)
+pypdf>=4.0
+python-docx>=1.1
+
+# Botão "Usar IA" (a chave é digitada por cada pessoa, nunca fica salva no app)
+openai>=1.50
